@@ -24,3 +24,5 @@ Just like Docker on which it is based, the A-dock project uses Go as its program
 Embedded applications development has usually been narrowly associated with dedicated or custom hardware, even when running some form of Linux on the embedded platform, restricting the deployment to a single kind of device or at best to a small selection of compatible devices. A-dock containers are designed to isolate the appliance-type applications development process from the hardware platform on which these applications will be deployed. The usually rather steep learning curve associated with embedded development is avoided in a good part. Also, the hardware/firmware developers of mass-produced ARM devices can focus their efforts on providing a cost-effective, reliable and A-dock container compatible ARM Linux platform, and not have to redesign a different platform for each new appliance application.
 
 So in a way, A-dock containers provide a new paradigm for embedded applications development, separating the appliance application development from the appliance hardware and firmware/system software platforms development.
+
+More information can be found in the A-dock Wiki
