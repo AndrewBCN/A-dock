@@ -15,7 +15,9 @@ The haddock (Melanogrammus aeglefinus) is a marine fish distributed on both side
 Introduction
 ------------
 
-A-dock is a project very similar to and based on Docker, but applied to ARM appliances. The idea is - similarly to Docker - to facilitate the deployment of applications on diverse hardware, except in this case we are not talking about server hardware or the Cloud, but low-power, mass-manufactured ARM devices running Linux. Also, whereas in the case of Docker the applications deployed are usually multiple interconnected Web apps, in the case of A-dock the idea is to deploy a single appliance-type application per A-dock container.
+A-dock is a project very similar to and based on Docker, but applied to ARM appliances.
+
+The idea is - similarly to Docker - to facilitate the deployment of applications on diverse hardware, except in this case we are not talking about server hardware or the Cloud, but low-power, mass-manufactured ARM devices running Linux. Also, whereas in the case of Docker the applications deployed are usually multiple interconnected Web apps, in the case of A-dock the idea is to deploy a single appliance-type application per A-dock container.
 
 Just like Docker on which it is based, the A-dock project uses Go as its programming language. Although A-dock is based on Docker, it is not a fork of it, since its purpose is fundamentally different. Docker really caters to developers working on Web apps and companies that host these apps on "heavy iron" server hardware or virtual machines in local or remote data centers ("the Cloud"). A-dock is concerned with deployment of appliance-type applications at the other extreme of the computing spectrum i.e. mass-produced, low power, often diminutive ARM devices - the kind of devices that are usually called "embedded".
 
